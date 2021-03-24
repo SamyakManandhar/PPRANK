@@ -1,0 +1,127 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: #ffffff;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+.signup-form-wrapper{
+	margin-top: 7%;
+}
+.signup-form-wrapper header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.signup-form-wrapper header h2{
+	color: grey;
+}
+.signup-form{
+	margin: 0 auto 40px auto;
+	width: 70%;
+	background: #fff;
+	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+.signup-form header{
+	padding: 15px;
+}
+.signup-form fieldset{
+	border: none;
+	padding: 15px 25px;
+}
+legend{
+	border: none;
+	font-size: 1.3em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.number{
+	background-color: #5fcf80;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 100%;
+}
+label{
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .5px;
+	display: block;
+	margin: 5px 0;
+}
+.radio-label{
+	display: inline;
+	margin-right: 15%;	
+}
+.input {
+	position: relative;
+
+	margin: 7px auto;
+}
+.input input {
+	width: 100%;
+	padding: 8px 5px 8px 15px;
+	display: block;
+	border: 1px solid #FDEDEC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	transition: 0.2s ease-out;
+	color: #34495E;
+	background: #FDEDEC;
+	font-size: 16px;
+}
+.input input:focus, .input select:FOCUS {
+	outline: 0;
+	border-color: #5fcf80;
+}
+.input select{
+	width: 100%;
+	padding: 8px 5px 8px 15px;
+	display: block;
+	border: 1px solid #FDEDEC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	transition: 0.2s ease-out;
+	line-height: 30px;
+	background: #FDEDEC;
+	font-size: 16px;
+}
+input[type="radio"]{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.signup-submit{
+	padding: 10px;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	background-color: #5fcf80;
+	width: 200px;
+	font-size: 16px;
+	margin: 30px 0 15px 0;
+	transition: 0.5s all;
+	webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.signup-submit:HOVER {
+	background: #34495E;
+}
+
+@media(max-width:480px){
+	.signup-form{
+		width: 100%;
+	}
+}
