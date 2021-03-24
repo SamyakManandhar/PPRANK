@@ -1,0 +1,132 @@
+.content{
+	min-height: 515px;
+	/* background-color: #45B39E; */
+}
+.text-center{
+	text-align: center;
+}
+
+.form-wrapper{
+	margin-top: 15%;
+	width: 100%;
+	background: #fff;
+	height: 400px;
+	/* box-shadow: 0px 3px 15px #333; */
+	border: 1px solid #2471A3;
+	padding-right: 20px;
+}
+.left-part{
+	width: 100%;
+	height: 400px;
+	background: #16A085;
+}
+.left-part > h4{
+	color: #fff;
+	text-align: center;
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+.right-part > h4{
+	color: #2471A3;
+	text-align: center;
+	display: block;
+	border-bottom: 1px solid #16A085;
+	width: 100%;
+}
+.label{
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.input{
+	margin-top: 15px;
+}
+.input input{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin-top: 3px; 
+	border-bottom: 1px solid #CD5C5C;
+	border-left: 0;
+	border-right: 1px solid #CD5C5C;
+	border-top: 0;
+	outline: none;
+}
+.login-btn{
+	margin-top: 20px;
+	width: 100%;
+	border: none;
+	background-color:#2471A3;
+	color: #fff;
+	padding: 10px 10px; 
+}
+.login-btn:HOVER {
+	background-color: #16A085;
+	-webkit-transition-delay:1 sec;
+}
+
+#hor-minimalist-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 0 auto;
+	width: 85%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hor-minimalist-b th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#hor-minimalist-b td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#hor-minimalist-b tbody tr:hover td
+{
+	color: #009;
+}
+
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0 auto;
+	width: 85%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-a td
+{
+	padding: 8px;
+	background: #b9c9fe; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: #16A085; 
+	color: #339;
+}
